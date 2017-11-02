@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n,k,otvet;
+    cin>>n>>k;
+    otvet=k%n;
+    cout<<otvet;
+    return 0;
+}
